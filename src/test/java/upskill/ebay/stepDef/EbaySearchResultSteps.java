@@ -25,4 +25,15 @@ public class EbaySearchResultSteps {
 		EbaySearchResultActionsObj.verifyBrandItems(brand);
 		Thread.sleep(2000);
 	}
+	@When("^Select the first shirt on item list$")
+	public void select_the_first_shirt_on_item_list() throws Throwable {
+		EbaySearchResultActionsObj.selectBigTallTee();
+		Thread.sleep(2000);
+	}
+	@When("^Select the first shoes$")
+		public void select_the_first_shoes() throws Throwable {
+		EbaySearchResultActionsObj.selectMensShoe();
+		Thread.sleep(2000);
+	}
+
 }

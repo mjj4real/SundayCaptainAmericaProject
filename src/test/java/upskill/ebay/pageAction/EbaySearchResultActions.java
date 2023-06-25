@@ -51,4 +51,16 @@ public class EbaySearchResultActions {
 		}
 	}
 	
+	public void selectBigTallTee() throws Exception{
+		Thread.sleep(3000);
+		EbaySearchResultLocatorsObj.linkShirtItems.click();  
+		Thread.sleep(3000);
+	}
+	
+	public void selectMensShoe() throws Exception{
+		Thread.sleep(3000);
+		EbaySearchResultLocatorsObj.linkShoesItems.click();
+		Thread.sleep(3000);
+	}
+	
 }
