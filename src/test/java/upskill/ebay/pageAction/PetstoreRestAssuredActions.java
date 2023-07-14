@@ -8,7 +8,7 @@ import java.io.File;
 
 public class PetstoreRestAssuredActions {
 	
-	public void CreatePet(){
+	public void CreatePets(){
 		given().
 		body(new File(System.getProperty("user.dir") + "/src/test/resource/ApiRequestPayloads/CreatePetRequest.json" )).
 		when().
